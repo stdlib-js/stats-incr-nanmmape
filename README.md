@@ -65,7 +65,7 @@ where `f_i` is the forecast value and `a_i` is the actual value.
 ## Usage
 
 ```javascript
-import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@esm/index.mjs';
+import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@v0.0.0-esm/index.mjs';
 ```
 
 #### incrnanmmape( window )
@@ -149,7 +149,7 @@ m = accumulator();
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@esm/index.mjs';
+import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@v0.0.0-esm/index.mjs';
 
 var accumulator;
 var v1;
