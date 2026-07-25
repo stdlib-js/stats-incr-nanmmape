@@ -65,6 +65,11 @@ where `f_i` is the forecast value and `a_i` is the actual value.
 ## Usage
 
 ```javascript
+import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/stats-incr-nanmmape/tags). For example,
+
+```javascript
 import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@v0.0.0-esm/index.mjs';
 ```
 
@@ -149,7 +154,7 @@ m = accumulator();
 
 import uniform from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-uniform@esm/index.mjs';
 import bernoulli from 'https://cdn.jsdelivr.net/gh/stdlib-js/random-base-bernoulli@esm/index.mjs';
-import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@v0.0.0-esm/index.mjs';
+import incrnanmmape from 'https://cdn.jsdelivr.net/gh/stdlib-js/stats-incr-nanmmape@esm/index.mjs';
 
 var accumulator;
 var v1;
